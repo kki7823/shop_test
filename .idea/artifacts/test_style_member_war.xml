@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test_style_member:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test_style_member</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="test_style_member-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="test_style_member:war exploded" />
+    </root>
+  </artifact>
+</component>
